@@ -5,7 +5,15 @@ const MulherSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    miniobio: {
+    imagem: {
+            type: String,
+            required: true   
+    },
+    minibio: {
+        type: String,
+        required: true
+    },
+    citação: {
         type: String,
         required: true
     }
